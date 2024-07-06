@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Переход в Discord</title>
-  <link rel="stylesheet" href="style.css">
-  <meta http-equiv="refresh" content="5; url=https://discord.com/invite/mEwDqSV4Yk">
+  <title>MonBAS Family</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      border: 1px solid white;
+      border-radius: 5px;
+      background-color: orange;
+      color: white;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: blue;
+    }
+
+    .discord-button {
+      background-color: #7289DA;
+    }
+
+    .discord-button:hover {
+      background-color: #586594;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>Перенаправление на Discord...</h1>
-    <div class="loader"></div>
+    <img class="logo" src="monbas_family_logo.png" alt="MonBAS Family Logo">
+    <div class="buttons">
+      <a class="button" href="#">Донат</a>
+      <a class="button" href="#">О нас</a>
+      <a class="button" href="#">Контакты</a>
+      <a class="button" href="#">Форум</a>
+      <a class="button discord-button" href="https://monbasdiscord.netlify.app/">Дискорд</a>
+    </div>
   </div>
 </body>
 </html>
